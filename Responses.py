@@ -21,6 +21,9 @@ def handle_response(message) -> str:
     if p_message == 'hello':
         return 'Hey there!'
         
+    if p_message == '!topdeckpioneer':
+        return 'https://www.mtggoldfish.com/metagame/pioneer#paper'
+        
     if p_message == 'rolld4':
         return str(random.randint(1, 4))
     
