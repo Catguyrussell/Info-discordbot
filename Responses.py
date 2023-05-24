@@ -60,6 +60,9 @@ def handle_response(message) -> str:
     if p_message == 'hello':
         return 'Hey there!'
         
+    if p_message == 'hello':
+        return 'Hey there!'
+    
     if p_message == 'rolld2':
         return str(random.randint(1, 2))
     
