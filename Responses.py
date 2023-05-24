@@ -54,8 +54,8 @@ def handle_response(message) -> str:
     if p_message == '!saltedh':
         return 'https://edhrec.com/top/salt'
     
-    if p_message == 'hello':
-        return 'Hey there!'
+    if p_message == '!dnddamcal':
+        return 'https://rpgbot.net/dnd5/tools/dpr-calculator/'
     
     if p_message == 'hello':
         return 'Hey there!'
