@@ -9,8 +9,8 @@ def handle_response(message) -> str:
     if p_message == '!codeblock':
         return '```'
     
-    if p_message == 'hellp':
-        return 'Hey there!'
+    if p_message == '!fullmtgrules':
+        return 'here are the full mtg rules https://media.wizards.com/2023/downloads/MagicCompRules%2020230414.pdf'
     
     if p_message == 'hello':
         return 'Hey there!'
