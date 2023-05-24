@@ -7,9 +7,9 @@ def handle_response(message) -> str:
         return 'Hey there! Heres 5E tools https://5e.tools/'
     
     if p_message == '!codeblock':
-        return 'Hey there!'
+        return '```'
     
-    if p_message == 'hello':
+    if p_message == 'hellp':
         return 'Hey there!'
     
     if p_message == 'hello':
