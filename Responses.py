@@ -18,11 +18,14 @@ def handle_response(message) -> str:
     if p_message == '!topdeckmodern':
         return 'https://www.mtggoldfish.com/metagame/modern#paper'
     
-    if p_message == 'hello':
-        return 'Hey there!'
+    if p_message == '!topdeckhistoric':
+        return 'https://www.mtggoldfish.com/metagame/historic#paper'
         
     if p_message == '!topdeckpioneer':
         return 'https://www.mtggoldfish.com/metagame/pioneer#paper'
+        
+    if p_message == 'hello':
+        return 'Hey there!'
         
     if p_message == 'rolld2':
         return str(random.randint(1, 2))
