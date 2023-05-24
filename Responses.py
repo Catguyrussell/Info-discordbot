@@ -33,6 +33,12 @@ def handle_response(message) -> str:
     if p_message == 'hello':
         return 'Hey there!'
         
+    if p_message == '!topdeckpauper':
+        return 'https://www.mtggoldfish.com/metagame/pauper#paper'
+        
+    if p_message == 'hello':
+        return 'Hey there!'
+        
     if p_message == 'rolld2':
         return str(random.randint(1, 2))
         
