@@ -24,8 +24,8 @@ def handle_response(message) -> str:
     if p_message == '!topdeckpioneer':
         return 'https://www.mtggoldfish.com/metagame/pioneer#paper'
         
-    if p_message == 'hello':
-        return 'Hey there!'
+    if p_message == '!topdeckalchemy':
+        return 'https://www.mtggoldfish.com/metagame/alchemy#paper'
         
     if p_message == '!topdeckexplorer':
         return 'https://www.mtggoldfish.com/metagame/explorer#paper'
