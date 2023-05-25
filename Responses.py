@@ -6,9 +6,6 @@ def handle_response(message) -> str:
     if p_message == '!5einfo':
         return 'Hey there! Heres 5E tools https://5e.tools/'
     
-    if p_message == '!codeblock':
-        return '``'
-    
     if p_message == '!fullmtgrules':
         return 'here are the full mtg rules https://media.wizards.com/2023/downloads/MagicCompRules%2020230414.pdf'
     
