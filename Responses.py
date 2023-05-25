@@ -57,10 +57,7 @@ def handle_response(message) -> str:
     if p_message == '!dnddamcal':
         return 'https://rpgbot.net/dnd5/tools/dpr-calculator/'
     
-    if p_message == 'hello':
-        return 'Hey there!'
-        
-    if p_message == 'hello':
+    if p_message == '!hello':
         return 'Hey there!'
     
     if p_message == 'rolld2':
